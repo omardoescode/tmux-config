@@ -27,14 +27,16 @@ export PATH=$PATH:$HOME/.local/bin
 ```
 
 4. Add aliases (optional)
+
    You can also add aliases for tmux
 
 ```bash
 # tmux
 alias t='tmux'
 alias td='t detach'
-alias ts='tmux-sessionizer'
+alias ts='tmux neww tmux-sessionizer'
 ```
 
 5. Setup `tmux-sessionizer`
+
    Open tmux-sessionizer file and edit the paths in which you want `tmux-sessionizer` to work
